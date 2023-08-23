@@ -3,6 +3,30 @@
 ### Introduction
 A bank provides a loan service for property purchases. The customers of this program are the bank's clients. This dataset contains all the personal data of the clients, as well as their credit history over a specific period, and analyzes the behavior of customers who apply for loans to the bank.
 
+Certainly! Below is the overview and description of the dataset, which you can include in a GitHub Markdown document. It provides information about each column in the dataset related to loan applicants.
+
+### Data Overview and Description
+
+| Column               | Description                                                                                          |
+|----------------------|------------------------------------------------------------------------------------------------------|
+| `loan_id`            | Unique identifier for the loan.                                                                      |
+| `birth_date`         | Birth date of the applicant.                                                                         |
+| `phone_number`       | Phone number of the applicant.                                                                       |
+| `gender`             | Gender of the applicant (e.g., Male, Female).                                                        |
+| `married`            | Marital status of the applicant (e.g., Married, Not Married).                                        |
+| `dependents`         | Number of dependents relying on the applicant's income.                                              |
+| `education`          | Educational background of the applicant.                                                             |
+| `self_employed`      | Employment status of the applicant (e.g., Self-Employed, Not Self-Employed).                         |
+| `applicant_income`   | Income of the applicant.                                                                             |
+| `coapplicant_income` | Income of the coapplicant, if any.                                                                   |
+| `loan_amount`        | Amount of loan applied for.                                                                          |
+| `loan_term_month`    | Loan term in months.                                                                                 |
+| `loan_term_year`     | Loan term in years.                                                                                  |
+| `credit_history`     | Credit history of the applicant (e.g., Good, Bad).                                                   |
+| `has_credit_card`    | Whether the applicant has a credit card (e.g., Yes, No).                                             |
+| `property_type`      | Type of property the loan is intended for (e.g., Apartment, House, Studio).                          |
+| `loan_status`        | Status of the loan application (e.g., Approved, Rejected).                                           |
+
 ### Step-by-Step Analysis:
 #### 1. Data Exploration and Preprocessing:
    - **Load the Data**: Read the CSV file containing the customer behavior data.
